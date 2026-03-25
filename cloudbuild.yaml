@@ -25,3 +25,9 @@ images:
 
 options:
   logging: CLOUD_LOGGING_ONLY
+
+substitutions:
+  _LOCATION: 'us-central1'
+  _REPO_NAME: 'node-docker-example'
+  _IMAGE_NAME: 'node-example'
+  _SERVICE_NAME: 'node-cloudrun-example'
