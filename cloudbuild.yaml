@@ -22,3 +22,6 @@ steps:
 # This must be at the root level (zero indentation)
 images:
   - '${_LOCATION}-docker.pkg.dev/${_PROJECT_ID}/${_REPO_NAME}/${_IMAGE_NAME}:$COMMIT_SHA'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
