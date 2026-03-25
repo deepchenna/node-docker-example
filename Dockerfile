@@ -1,4 +1,4 @@
-FROM node:12.2
+FROM node:20-bookworm-slim
 
 ENV HOME=/home/app
 
